@@ -1,3 +1,4 @@
-export function isEven() {
-  console.log('wtf');
-}
+#!/usr/bin/env node
+import brainEven from '../src/games/brain-even.js';
+
+brainEven();
