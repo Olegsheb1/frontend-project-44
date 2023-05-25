@@ -2,8 +2,8 @@ import readlineSync from 'readline-sync';
 import askForName from './cli.js';
 
 export default function game(gameTask, question) {
-  console.log(gameTask);
   const username = askForName();
+  console.log(gameTask);
   for (let i = 0; i < 3; i += 1) {
     const [random, answer] = question();
     console.log(`Question: ${random}`);
